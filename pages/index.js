@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Index Page</title>
+        <title className={styles.title}>Index Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main page='index' />
